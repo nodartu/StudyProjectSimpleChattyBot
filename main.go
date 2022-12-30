@@ -35,7 +35,7 @@ func guessAge() {
 func count() {
 	var n int
 
-	fmt.Println("Now I will prove to you that I can count to any number you want.")
+	fmt.Println("Now, I will prove to you that I can count to any number you want.")
 	fmt.Scan(&n)
 	for i := 0; i <= n; i++ {
 		fmt.Printf("%d!\n", i)
